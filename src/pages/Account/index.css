@@ -1,9 +1,63 @@
-.form input{
+.form input {
     color: #fff;
 }
+
+.scroll-table {
+    height: 26.2rem;
+    border: thin solid rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+    overflow: scroll;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.scroll-table::-webkit-scrollbar {
+    display: none; /* Chrome */
+}
+
+.history-table {
+    width: 100%;
+    color: #fff;
+}
+
+.history-table th,
+.history-table td {
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.history-table thead tr {
+    background-color: rgba(14, 22, 45, 0.5);
+    position: sticky;
+    top: 0;
+}
+
+.history-table tbody tr {
+    background-color: rgba(14, 22, 45, 0.2);
+}
+
+.history-table tr:hover {
+    background-color: rgba(14, 22, 45, 0.4);
+}
+
+.doughnut-chart {
+    position: relative;
+    width: 26.2rem;
+    background-color: rgba(14, 22, 45, 0.2);
+    background-clip: padding-box;
+    border: thin solid rgba(255, 255, 255, 0.2);
+    border-radius: 0.25rem;
+}
+
 @media screen and (min-width: 1400px) {
     .flex-container {
         width: 90rem;
         margin: 10rem auto 20px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .doughnut-chart {
+        width: 80vw;
     }
 }

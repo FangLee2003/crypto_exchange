@@ -1,0 +1,9 @@
+.flex-container {
+    margin-top: 2rem;
+}
+
+.form {
+    border: none;
+    margin-top: 2rem;
+    overflow: hidden;
+}

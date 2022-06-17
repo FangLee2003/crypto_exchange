@@ -1,0 +1,6 @@
+export Account from './Account/index'
+export Exchange from './Exchange/index'
+export Login from './Login/index'
+export MarketCap from './MarketCap/index'
+export RecoverPassword from './RecoverPassword/index'
+export Register from './Register/index'

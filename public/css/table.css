@@ -1,15 +1,4 @@
-.scroll-table {
-    height: 26.2rem;
-    border: thin solid rgba(255, 255, 255, 0.2);
-    border-radius: 2px;
-    overflow: scroll;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-}
 
-.scroll-table::-webkit-scrollbar {
-    display: none; /* Chrome */
-}
 
 .wallet-table {
     margin-top: 10px;
@@ -38,31 +27,6 @@
 .wallet-table li a:hover,
 .wallet-table li a:focus {
     background: rgba(19, 26, 51, 0.2);
-}
-
-.history-table {
-    width: 100%;
-    color: #fff;
-}
-
-.history-table th,
-.history-table td {
-    padding: 0.5rem 0;
-    text-align: center;
-}
-
-.history-table thead tr {
-    background-color: rgba(14, 22, 45, 0.5);
-    position: sticky;
-    top: 0;
-}
-
-.history-table tbody tr {
-    background-color: rgba(14, 22, 45, 0.2);
-}
-
-.history-table tr:hover {
-    background-color: rgba(14, 22, 45, 0.4);
 }
 
 .marketcap-table thead tr {
