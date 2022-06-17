@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kripto Register</title>
+    <link rel="icon" href="images/logo-color.png">
+    <link rel='stylesheet' href="css/main.css" type="text/css">
+
+    <meta property="og:image" content="images/preview-register.png"/>
+    <meta property="og:title" content="Kripto Register"/>
+    <meta property="og:description" content="Trading Future"/>
+    <meta property="og:url" content="https://fanglee2003.github.io/register"/>
+
+</head>
+<style>
+    body {
+        background-image: url('./images/background.jpg');
+        background-size: cover;
+    }
+
+    .sign-in {
+        margin-top: 5rem;
+    }
+
+    @media screen and (max-width: 1280px) {
+        body {
+            background-image: url('./images/background2.jpg');
+        }
+
+        .sign-in {
+            width: 40%;
+            margin: 50% auto;
+        }
+    }
+</style>
+
+<body>
+<div id="fb-root"></div>
+
+<div id="loading">
+    <img id="loading-image" src="images/loading.gif" alt="Loading..."/>
+</div>
+<nav class="nav-bar">
+    <div class="nav-bar-left">
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div class="nav-bar-right">
+        <ul>
+            <li><a href="index.html">Market cap</a></li>
+            <li><a href="exchange.html">Exchange</a></li>
+            <li><a href="Account/account.html">Account</a></li>
+            <li class="nav-bar-red"><a href="register.html">register</a></li>
+            <li class="nav-bar-green"><a href="login.html">login</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="form sign-in fadeInUp">
+
+    <table>
+        <tr>
+            <th>
+                <div class="logo">
+                    <img src="images/logo-color.png" alt="logo-image">
+                    <h1>Register</h1>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" placeholder="Email / phone" name="bank-account">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" placeholder="Password" name="amount">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="password" placeholder="Confirm Password" name="swift">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button class="button-purple">Sign up</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="fb-login-button" data-width="" data-size="medium" data-button-type="continue_with"
+                     data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p class="float-left"><a href="login.html">Login</a></p>
+                <p class="float-right"><a href="recover-password.html">Recover Password</a></p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="js/jquery.js"></script>
+
+<script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0&appId=966413697364774&autoLogAppEvents=1"
+        nonce="e3FHeFDB">
+</script>
+
+<script src="js/loading.js"></script>
+
+</body>
+
+</html>
